@@ -8,12 +8,12 @@ $ModuleList = @(
     @{
         ModuleName = 'ExchangeOnlineManagement' # includes Defender
         ModuleVersion = [version] '3.2.0'
-        MaximumVersion = [version] '3.7.2'
+        MaximumVersion = [version] '3.8.0'
     },
     @{
         ModuleName = 'Microsoft.Online.SharePoint.PowerShell' # includes OneDrive
         ModuleVersion = [version] '16.0.0'
-        MaximumVersion = [version] '16.0.25912.12000'
+        MaximumVersion = [version] '16.0.26017.12000'
     },
     @{
         ModuleName = 'PnP.PowerShell' # alternate for SharePoint PowerShell
@@ -23,7 +23,7 @@ $ModuleList = @(
     @{
         ModuleName = 'Microsoft.PowerApps.Administration.PowerShell'
         ModuleVersion = [version] '2.0.198'
-        MaximumVersion = [version] '2.0.210'
+        MaximumVersion = [version] '2.0.212'
     },
     @{
         ModuleName = 'Microsoft.PowerApps.PowerShell'
@@ -33,37 +33,37 @@ $ModuleList = @(
     @{
         ModuleName = 'Microsoft.Graph.Authentication'
         ModuleVersion = [version] '2.0.0'
-        MaximumVersion = [version] '2.27.0'
+        MaximumVersion = [version] '2.28.0'
     },
     @{
         ModuleName = 'Microsoft.Graph.Beta.Applications'
         ModuleVersion = [version] '2.0.0'
-        MaximumVersion = [version] '2.27.0'
+        MaximumVersion = [version] '2.28.0'
     },
     @{
         ModuleName = 'Microsoft.Graph.Beta.Users'
         ModuleVersion = [version] '2.0.0'
-        MaximumVersion = [version] '2.27.0'
+        MaximumVersion = [version] '2.28.0'
     },
     @{
         ModuleName = 'Microsoft.Graph.Beta.Groups'
         ModuleVersion = [version] '2.0.0'
-        MaximumVersion = [version] '2.27.0'
+        MaximumVersion = [version] '2.28.0'
     },
     @{
         ModuleName = 'Microsoft.Graph.Beta.Identity.DirectoryManagement'
         ModuleVersion = [version] '2.0.0'
-        MaximumVersion = [version] '2.27.0'
+        MaximumVersion = [version] '2.28.0'
     },
     @{
         ModuleName = 'Microsoft.Graph.Beta.Identity.SignIns'
         ModuleVersion = [version] '2.0.0'
-        MaximumVersion = [version] '2.27.0'
+        MaximumVersion = [version] '2.28.0'
     },
     @{
         ModuleName = 'Microsoft.Graph.Beta.DirectoryObjects'
         ModuleVersion = [version] '2.0.0'
-        MaximumVersion = [version] '2.27.0'
+        MaximumVersion = [version] '2.28.0'
     },
     @{
         ModuleName = 'powershell-yaml'
@@ -71,4 +71,5 @@ $ModuleList = @(
         MaximumVersion = [version] '0.4.12'
     }
 )
+
 
