@@ -39,7 +39,7 @@ jobs:
           $timestamp = Get-Date -Format "yyyyMMddHHmmss"
           $branchName = "bump-dependencies-$timestamp"
           git checkout -b $branchName
-          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/cisagov/ScubaGear.git HEAD:$branchName
+          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/skirkpatrickMSFT/ScubaGear.git HEAD:$branchName
           echo "BRANCH_NAME=$branchName" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
       - name: Trigger smoke test workflow
