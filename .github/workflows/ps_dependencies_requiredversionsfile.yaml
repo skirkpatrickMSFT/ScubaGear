@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  workflows: write  
+  workflows: write
 
 jobs:
   bump-dependencies:
