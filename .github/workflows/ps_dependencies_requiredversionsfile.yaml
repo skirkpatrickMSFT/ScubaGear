@@ -9,15 +9,13 @@ on:
   workflow_dispatch:
 
 permissions:
-  workflows: write
+  contents: write
+  pull-requests: write
+  actions: write
 
 jobs:
   bump-dependencies:
     runs-on: windows-latest
-
-    permissions:
-      contents: write
-      pull-requests: write
 
     steps:
       - name: Checkout repository
