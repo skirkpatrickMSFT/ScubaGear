@@ -14,6 +14,7 @@ $ModuleList = @(
         ModuleName = 'Microsoft.Online.SharePoint.PowerShell' # includes OneDrive
         ModuleVersion = [version] '16.0.0'
         MaximumVersion = [version] '16.0.24810.12000'
+        IsPinned = 'True'
     },
     @{
         ModuleName = 'PnP.PowerShell' # alternate for SharePoint PowerShell
