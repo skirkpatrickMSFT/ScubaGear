@@ -135,7 +135,7 @@ jobs:
           catch {
             echo "SMOKE_TEST_PASSED=false" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
             Write-Host "❌ Smoke test failed: $_"
-            exit 1
+            # Don't exit with error code - let workflow continue to cleanup branch
           }
 
       - name: Check for existing pull requests
